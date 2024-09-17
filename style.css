@@ -1,0 +1,37 @@
+* {
+    background-color: #eee6d8;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    text-align: center;
+    background-color: #795757;
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+h2 {
+    text-align: center;
+    background-color: #664343;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    background-color: #3B3030;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.containerShortPortions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.boxShortPortions {
+    
+}
