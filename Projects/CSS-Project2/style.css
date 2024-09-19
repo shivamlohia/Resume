@@ -1,0 +1,28 @@
+html {
+    background-color:darkolivegreen;
+    color:burlywood;
+    
+}
+
+div {
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(79, 96, 50);
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+img {
+    border: solid white 5px;
+    width: 75%;
+}
+
