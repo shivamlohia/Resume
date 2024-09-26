@@ -1,41 +1,16 @@
 * {
-    background-color: #eee6d8;
+    
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-h1 {
-    text-align: center;
-    background-color: #795757;
-    color: #eee6d8;
-    font-weight: 800;
-}
-
-h2 {
-    text-align: center;
-    background-color: #664343;
-    color: #eee6d8;
-    font-weight: 700;
-}
-
-h3 {
-    text-align: center;
-    background-color: #3B3030;
-    color: #eee6d8;
-    font-weight: 500;
-}
-
-.containerShortPortions {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-.projects-class {
+body {
+    margin: 0px;
+    background-color: grey;
     display: flex;
-    flex-direction: column-reverse;
-    gap: 5px;
+    justify-content: center;
+    padding: 10px;
 }
 a {
     text-decoration: none;
@@ -43,5 +18,77 @@ a {
     font-size: 1.1rem;;
 }
 a:hover {
-    color: blue;
+    color: grey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.right-hr {
+    margin-top: 70px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    max-width: 900px;
+    
+}
+
+.left-side *, .left-side {
+    background-color: rgb(68, 65, 84);
+    color: whitesmoke;
+}
+
+p {
+    padding: 5px;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.section-type {
+    padding: 5px;
+    margin-bottom: 0;
+    
+    
+}
+
+.projects-class {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.organisation {
+    list-style: none;
+    padding: 10px;
+    font-size: large;
+}
+
+p {
+    padding-right: 20px;
+} 
+
+.right-side {
+    color: rgb(68, 65, 84);
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
+.job-roles {
+    padding-right: 20px;
+}
+
+.accomplishments {
+    padding-right: 20px;
+}
+
+footer {
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 5px;
 }
