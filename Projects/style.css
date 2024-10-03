@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+a {
+   text-decoration: none;
+   color: black !important;
+   font-family: "SUSE", sans-serif;
+   font-weight: 700;
+}
+.project {
+    background-color: white;
+    border: none;
+    height: 100%;
+    width: 10000px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Add glow effect when hovering over the button */
+.project:hover {
+    box-shadow: 0 0 115px 5px rgba(30, 144, 255, 0.75); /* Glowing blue effect */
+    z-index: 1;
+    background-color: rgba(146, 200, 254, 0.75);
+}
+
+/* Optional: Animated pulsating glow */
+.project:focus, .project:active {
+    box-shadow: 0 0 25px rgba(30, 144, 255, 1),
+                0 0 50px rgba(30, 144, 255, 0.7),
+                0 0 75px rgba(30, 144, 255, 0.5);
+    outline: none; /* Remove the default button focus outline */
+}
